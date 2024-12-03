@@ -9,6 +9,7 @@ import Foundation
 import Alamofire
 class ApiService:ApiPattern{
     func getAmazonProducts(url: String, params: [String : String], result: @escaping ([Product]) -> ()) {
+        print("I am main")
         AF.request(url).response { response in
             /*do {
                 let r = try JSONDecoder().decode([Product].self, from:response.data!)
