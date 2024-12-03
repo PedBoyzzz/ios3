@@ -21,7 +21,6 @@ class ApiService:ApiPattern{
             */
             switch(response.result){
                 case .success(let d):
-                    print("------- success1")
                     do {
                         let r = try JSONDecoder().decode([Product].self, from:d!)
                         result(r)
