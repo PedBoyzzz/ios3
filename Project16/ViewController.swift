@@ -60,7 +60,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         super.viewDidLoad()
         print("----init push")
         print("----init push pipi")
-        print("----init push pipi2")
+        //print("----init push pipi2")
         tb.delegate = self
         tb.dataSource = self
         self.tb.separatorStyle = UITableViewCell.SeparatorStyle.none
