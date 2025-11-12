@@ -59,6 +59,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     override func viewDidLoad() {
         super.viewDidLoad()
         print("----init push")
+        print("----init push pipi")
         tb.delegate = self
         tb.dataSource = self
         self.tb.separatorStyle = UITableViewCell.SeparatorStyle.none
